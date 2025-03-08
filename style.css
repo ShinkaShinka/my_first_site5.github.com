@@ -1,0 +1,238 @@
+html, body {
+	color: #FFFFFF;
+	margin-right: 0px;
+	margin-left: 0px;
+	display: block;
+	margin: 0px;
+	background-color: #0d0e14;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #13151f;
+	height: 11vh;
+}
+
+.navigation {
+	margin-left: 1.5vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.brand {
+	color: aquamarine;
+	margin-top: 0px;
+	font-size: 2vw;
+	margin-right: 28.5vw;
+}
+	.brand:hover {
+		color: yellow;
+	}
+
+a{
+	color: cornflowerblue;
+	text-decoration: none;
+}
+	a:hover {
+		color: cyan;
+	}
+.content a:visited {
+	color: #900060;
+	}
+	.content a:hover {
+		color: cyan;
+	}
+	
+	h3{
+		font-size: 1vw;
+	}
+
+.sitename {
+	font-size: 2.4vw;
+	margin-right: 21.6vw;
+}
+
+.bgcolorbuttonclass {
+	background: url('Sprite-01(right).png') no-repeat;
+	border: none;
+	cursor: pointer;
+	width: 64px;
+	height: 64px;
+	margin-right: 25px;
+	text-decoration: none !important;
+}
+
+.bg-color {
+	background-color: #13151f;
+	transition: background-color 0.5s;
+}
+
+hr {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 0.2vh;
+	border: 0;
+	background: #000000;
+}
+
+
+
+.content {
+	width: 73.5vw;
+	height: auto;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-top: 6vh;
+	padding-top: 1vh;
+	padding-left: 2.5vw;
+	padding-right: 2.5vw;
+	padding-bottom: 1vh;
+	text-align: left;
+	font-family: Arial;
+	background-color: #13151f;
+}
+	.content hr {
+		margin-top: 5vh;
+		margin-bottom: 5vh;
+		background: #446888;
+	}
+.content_center {
+	text-align: center;
+}
+
+p{
+	font-size: 1.05vw;
+}
+
+li{
+	font-size: 1vw;
+}
+
+footer {
+	width: 100%;
+	margin-top: 10vh;
+	margin-bottom: 0px;
+	color: darkcyan;
+	background-color: #13151f;
+	height: 11vh;
+	align-items: center;
+}
+
+.footinfo {
+	align-items: center;
+	text-align: center;
+}
+
+@media (max-width: 550px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+		background-color: #13151f;
+		height: 8vw;
+	}
+
+	.brand {
+		color: aquamarine;
+		margin-top: 0px;
+		font-size: 2.35vw;
+		margin-right: 26.5vw;
+	}
+
+	.sitename {
+		margin-right: 20.25vw;
+		font-size: 2.75vw;
+	}
+
+	.content {
+		width: 77vw;
+		height: auto;
+		margin-right: 9vw;
+		margin-left: 9vw;
+		margin-top: 4vh;
+		padding-top: 1vw;
+		padding-left: 2.5vw;
+		padding-right: 2.5vw;
+		padding-bottom: 1vw;
+		text-align: left;
+		font-family: Arial;
+		background-color: #13151f;
+	}
+
+	.content_name {
+		font-size: 1.8vw;
+		margin-top: 2vw;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 1.7vw;
+	}
+
+	.content h2 {
+		font-size: 1.6vw;
+	}
+
+	.content hr {
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+		background: #446888;
+	}
+
+	.content ul {
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+		padding-left: 6vw;
+	}
+
+	.content li {
+		font-size: 1.5vw;
+	}
+
+	blockquote {
+		color: cornflowerblue;
+		padding-left: 1vw;
+		border-left: outset;
+		border-color: cornflowerblue;
+		margin-left: 2vw;
+		margin-top: 1vw;
+		margin-bottom: 1vw;
+	}
+
+		blockquote h4 {
+			font-size: 1.2vw;
+		}
+
+	p {
+		font-size: 1.5vw;
+	}
+
+	video {
+		margin-left: 7vw;
+	}
+
+	blockquote h4 {
+		font-size: 1.2vw;
+	}
+
+	footer {
+		width: 100%;
+		margin-top: 4vh;
+		margin-bottom: 0px;
+		color: darkcyan;
+		background-color: #13151f;
+		height: 8vw;
+		font-size: 3vh;
+		text-align: center;
+		color: darkcyan;
+		background-color: #13151f;
+	}
+
+	.footinfo_text {
+		align-items: center;
+		font-size: 2.5vw;
+		text-align: center;
+	}
+}
